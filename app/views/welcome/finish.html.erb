@@ -1,0 +1,15 @@
+ <div class="container">
+  <div class="center-jumbotron">
+    
+    <h3>Thanks for the input! Here's your word tree:</h3>
+
+    <ul>
+      <% @tree.each do |word| %>
+        <li><%= word %></li></br></br>
+      <% end %>
+    </ul>
+
+    <img id="acorns" alt="Acorns" src="/assets/acorns.jpg" />
+  </div>
+</div>
+
